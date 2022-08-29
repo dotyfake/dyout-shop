@@ -1,0 +1,147 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: rgb(200, 55, 51);
+    --border-color: #dbdbdb;
+    --star-gold-color: #FFCE3E;
+
+    --header-height: 120px;
+    --navbar-height: 34p;
+    --header-with-search: calc(var(var(--header-height)) - var(var(--header-navbar)));
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+hr{
+    border: solid var(--primary-color);
+    border-top: 2px;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.app-content{
+padding-top: 24px;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+   
+}
+
+.grid__column-2{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.6667%;
+}
+
+
+
+.grid__column-10{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 80%;
+
+}
+
+.a-base{
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+
+    }
+}
+
+@keyframes fadeInGrowth {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+
+    }
+}
+
+@keyframes growth{
+    from{
+transform: scale(var(--growth-from));
+    }
+    to{
+        transform: scale(var(--growth-to));
+    }
+}
+
+/* Modal */
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    --growth-from: 0.7;
+    --growth-to: 1;
+
+    animation: growth linear 0.1s;
+
+}
+
+
+
+
+
+
+.modal__overlay{
+position: absolute;
+    width: 100%;
+    height: 100%;
+background-color: rgba(0,0,0,0.4);
+z-index: 9;
+}

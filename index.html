@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DyouT Shop</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.15.2-web/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="grid wide">
+            <nav class="header__navbar hide-on-mobile-tablet">
+                <div class="header__navbar-list">
+                    <li class="header__navbar-list-item header__navbar-list-item--separate header__qr-has-img">Vào cửa
+                        hàng DyouT
+                        <div class="header__qr">
+                            <img src="assets/img/qr-code.png" alt="QR code" class="header__qr-code">
+                            <div class="header__qr-apps">
+                                <a href="" class="header__qr-link">
+                                    <img src="assets/img/app-store.png" alt="App Store" class="header__qr-apps-img">
+                                </a>
+                                <a href="" class="header__qr-link">
+                                    <img src="assets/img/google-play.png" alt="Google Play" class="header__qr-apps-img">
+                                </a>
+                            </div>
+                            <div class="header__qr-apps">
+                                <a href="" class="header__qr-link">
+                                    <img src="assets/img/app-gallery.png" alt="App Gallery" class="header__qr-apps-img">
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class=" header__navbar-list-item ">
+                        <span class="ketnoi">Kết Nối</span>
+                    </li>
+                    <div class=" header__navbar-link-icon">
+                        <i class=" fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+
+                </div>
+                <div class="header__navbar-list">
+                    <li class="header__navbar-list-item header__notify-has-block">
+                        <a href="" class="header__navbar-list-link header__navbar-link-icon">
+                            <i class="iconss far fa-bell"></i>
+                            Thông báo
+                        </a>
+                        <div class="header__notify">
+                            <header class="header__notify-header">
+                                <h3>Thông báo mới nhận</h3>
+                            </header>
+                            <ul class="header__notify-list">
+                                <li class="header__notify-item">
+                                    <a href="" class="header__notify-link">
+                                        <div class="header__notify-info">
+                                            <img src="assets/img/1.jpg" alt="" class="header__notify-item-img">
+                                            <Div class="header__notify-info-item">
+                                                <span class="header__notify-name">Chuột và laptop Huhu chính hãng nhưng
+                                                    lại không chính chủ, vì chủ nó đang ngồi code.</span>
+                                                <span class="header__notify-descriotion">Sản phẩm đã qua 10 năm sử dụng
+                                                    nhưng vẫn rất mượt!</span>
+                                            </Div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="header__notify-list">
+                                <li class="header__notify-item">
+                                    <a href="" class="header__notify-link">
+                                        <div class="header__notify-info">
+                                            <img src="assets/img/2.jpg" alt="" class="header__notify-item-img">
+                                            <Div class="header__notify-info-item">
+                                                <span class="header__notify-name">Khẩu trang ngừa Covid</span>
+                                                <span class="header__notify-descriotion">Khẩu trang đã qua sử dụng nhưng
+                                                    vẫn rất xịn! Giá chỉ: 2000vnđ</span>
+                                            </Div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="header__notify-list">
+                                <li class="header__notify-item">
+                                    <a href="" class="header__notify-link">
+                                        <div class="header__notify-info">
+                                            <img src="assets/img/3.jpg" alt="" class="header__notify-item-img">
+                                            <Div class="header__notify-info-item">
+                                                <span class="header__notify-name">Gel bôi chị mụn tận gốc Sliver
+                                                    Nano</span>
+                                                <span class="header__notify-descriotion">Mỹ phẩm Huhu chính hãng hàng
+                                                    siêu xịn và dùng siêu tốt, giá lại vừa rẻ!</span>
+                                            </Div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="footer__notify">
+                                <a href="" class="footer__notify-view">
+                                    <h3>Xem Tất Cả</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__navbar-list-item">
+                        <a href="" class="header__navbar-list-link header__navbar-link-icon">
+                            <i class="iconss far fa-question-circle"></i>
+                            Trợ giúp
+                        </a>
+                    </li>
+                    <!-- <li
+                        class="header__navbar-list-item header__navbar-list-item--strong header__navbar-list-item--separate">
+                        Đăng ký</li>
+                    <li class="header__navbar-list-item header__navbar-list-item--strong">Đăng nhập</li> -->
+
+                    <li class="header__navbar-list-item header__navbar-list-item-user">
+                        <img src="https://yt3.ggpht.com/yti/ANoDKi5BkBXlkiSAqPGAqTtA-XVr7P4VeOkgiZLPM3HH=s88-c-k-c0x00ffffff-no-rj-mo"
+                            alt="" class="header__navbar-list-item-user-img">
+                        <div class="header__navbar-list-item-user-name">Douty
+                        </div>
+                        <ul class="header__navbar-list-item-user-menu">
+                            <li class="header__navbar-list-item-user-item">
+                                <a href="" class="a-base">Tài khoản của tôi</a>
+                            </li>
+                            <li class="header__navbar-list-item-user-item">
+                                <a href="" class="a-base">Địa chỉ của tôi</a>
+                            </li>
+                            <li class="header__navbar-list-item-user-item">
+                                <a href="" class="a-base">Đơn hàng</a>
+                            </li>
+                            <li class="header__navbar-list-item-user-item">
+                                <a href="" class="a-base">Đăng xuất</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                </div>
+            </nav>
+            <div class="header-with-search  ">
+                <div class="header-navbar-search-bars hide-on-pc-tablet">
+                    <div class="header__bars">
+                        
+                        <label for="cb-bars" class="header__bars-icon" >
+                            <i class="fas fa-bars"></i>
+                            
+                        </label>
+                        <input type="checkbox" name="cb-bars" id="cb-bars" class="header__bars-checkbox" hidden>
+                        <label for="cb-bars" class="modal-overlay-bars">
+                        </label>
+                        <ul class="header__bars-mobile">
+                            <label for="cb-bars" class="header__bars-mobile-close">
+                                <i class="fas fa-times"></i>
+                            </label>
+                            <div class="header-bars-mobile-list">
+                                <li class="header__bars-mobile-item">
+                                    <a href="" class="header__bars-mobile-link a-base">
+                                        <span class="header-bars-item-icon">
+                                            <i class="fas fa-user"></i>
+                                        </span>
+                                        Tài khoản</a>
+                                </li>
+                                <li class="header__bars-mobile-item">
+                                    <a href="" class="header__bars-mobile-link a-base">
+                                        <span class="header-bars-item-icon">
+                                            <i class="fas fa-list"></i>
+                                        </span>
+                                        Danh mục</a>
+                                </li>
+                                <li class="header__bars-mobile-item">
+                                    <a href="" class="header__bars-mobile-link a-base">
+                                        <span class="header-bars-item-icon">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                        Giỏ hàng</a>
+                                </li>
+                                <li class="header__bars-mobile-item">
+                                    <a href="" class="header__bars-mobile-link a-base">
+                                        <span class="header-bars-item-icon">
+                                            <i class="fas fa-cog"></i>
+                                        </span>
+                                        Cài đặt</a>
+                                </li>
+                                <li class="header__bars-mobile-item">
+                                    <a href="" class="header__bars-mobile-link a-base">
+                                        <span class="header-bars-item-icon">
+                                            <i class="fas fa-sign-out-alt"></i>
+                                        </span>
+                                        Thoát</a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+    
+                    <div class="header__search-mobile">
+                        <span class="header__search-mobile-icon ">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <div class="header__search-history-mobile hide-on-pc-tablet">
+                            <input type="text" class="header__search-text" placeholder="Nhập sản phẩm cần tìm kiếm">
+                            <div class="header__search-history-label">
+                                Lịch sử tìm kiếm
+                                <i class="fas fa-history"></i>
+                            </div>
+                
+                            <ul class="header__search-history-list">
+                                <a href="" class="header__search-history-item">
+                                    <li class="header__search-history-text">Thuốc cho tỷ phú. Giá: 1.000.000.000 vnđ
+                                    </li>
+                                </a>
+                                <a href="" class="header__search-history-item">
+                                    <li class="header__search-history-text">Dịch vụ cho thuê người yêu tết 2021</li>
+                                </a>
+                                <a href="" class="header__search-history-item">
+                                    <li class="header__search-history-text">Thuốc chống Covid cắn</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="header__logo hide-on-tablet">
+                    <a href="" class="header__logo-link">
+                        <img src="assets/img/logo.png" alt="" class="header__logo-img">
+                    </a>
+                </div>
+                <div class="header__search hide-on-mobile">
+                    <div class="header__search-text-wrap">
+                        <input type="text" class="header__search-text" placeholder="Nhập sản phẩm cần tìm kiếm">
+                        <div class="header__search-history">
+
+                            <div class="header__search-history-label">
+                                Lịch sử tìm kiếm
+                                <i class="fas fa-history"></i>
+                            </div>
+
+                            <ul class="header__search-history-list">
+                                <a href="" class="header__search-history-item">
+                                    <li class="header__search-history-text">Thuốc cho tỷ phú. Giá: 1.000.000.000 vnđ
+                                    </li>
+                                </a>
+                                <a href="" class="header__search-history-item">
+                                    <li class="header__search-history-text">Dịch vụ cho thuê người yêu tết 2021</li>
+                                </a>
+                                <a href="" class="header__search-history-item">
+                                    <li class="header__search-history-text">Thuốc chống Covid cắn</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__search-select">
+                        <span class="header__search-select-label">Trong Shop</span>
+                        <i class="fas fa-angle-down"></i>
+                        <ul class="header__search-option">
+                            <div class="header__search-option-item">
+                                <li class="header__search-option-label">Trong Shop</li>
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="header__search-option-item">
+                                <li class="header__search-option-label">Ngoài Shop</li>
+                            </div>
+                        </ul>
+                    </div>
+                    <button class="header__search-btn-icon">
+                        <i class="fas fa-search"></i>
+                    </button>
+
+                </div>
+
+                <div class="header__cart">
+                    <a href="" class="header__cart-link">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <span class="header__cart-count">4</span>
+                    <!-- No cart : header__cart-list--no-cart -->
+                    <div class="header__cart-container">
+                        <img src="assets/img/no_cart.png" alt="" class="header__cart-no-cart-img">
+                        <h3 class="header__cart-no-cart-text">Chưa có sản phẩm</h3>
+                        <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                        <ul class="header__cart-list-items">
+                            <li class="header__cart-items">
+                                <a href="" class="header__cart-link-img">
+                                    <img src="assets/img/c1.jpg" alt="" class="header__cart-items-img">
+                                </a>
+                                <div class="header__cart-info-items">
+                                    <div class="header__cart-info-name-items">
+                                        <h3 class="header__cart-info-name-item">Một cái dép</h3>
+                                        <div class="header__cart-info-name-items-left">
+                                            <span class="header__cart-info-item-price">300.000đ</span>
+                                            <span class="header__cart-info-item-multiply">x</span>
+                                            <span class="header__cart-info-item-amount">2</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="header__cart-name-info-descriotion">
+                                        <span class="header__cart-info-item-desc">Phân loại hàng: Dép</span>
+                                        <span class="header__cart-info-item-delete">Xoá</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__cart-items">
+                                <a href="" class="header__cart-link-img">
+                                    <img src="assets/img/c2.jpg" alt="" class="header__cart-items-img">
+                                </a>
+                                <div class="header__cart-info-items">
+                                    <div class="header__cart-info-name-items">
+                                        <h3 class="header__cart-info-name-item">Hai cái dép</h3>
+                                        <div class="header__cart-info-name-items-left">
+                                            <span class="header__cart-info-item-price">600.000đ</span>
+                                            <span class="header__cart-info-item-multiply">x</span>
+                                            <span class="header__cart-info-item-amount">2</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="header__cart-name-info-descriotion">
+                                        <span class="header__cart-info-item-desc">Phân loại hàng: Dép</span>
+                                        <span class="header__cart-info-item-delete">Xoá</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__cart-items">
+                                <a href="" class="header__cart-link-img">
+                                    <img src="assets/img/c3.jpg" alt="" class="header__cart-items-img">
+                                </a>
+                                <div class="header__cart-info-items">
+                                    <div class="header__cart-info-name-items">
+                                        <h3 class="header__cart-info-name-item">Thìa nhựa đã qua sử dụng</h3>
+                                        <div class="header__cart-info-name-items-left">
+                                            <span class="header__cart-info-item-price">6.000.000đ</span>
+                                            <span class="header__cart-info-item-multiply">x</span>
+                                            <span class="header__cart-info-item-amount">3</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="header__cart-name-info-descriotion">
+                                        <span class="header__cart-info-item-desc">Phân loại hàng: Thìa</span>
+                                        <span class="header__cart-info-item-delete">Xoá</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__cart-items">
+                                <a href="" class="header__cart-link-img">
+                                    <img src="assets/img/c4.jpg" alt="" class="header__cart-items-img">
+                                </a>
+                                <div class="header__cart-info-items">
+                                    <div class="header__cart-info-name-items">
+                                        <h3 class="header__cart-info-name-item">Chùm chìa khoá Iron Man</h3>
+                                        <div class="header__cart-info-name-items-left">
+                                            <span class="header__cart-info-item-price">30.000.000đ</span>
+                                            <span class="header__cart-info-item-multiply">x</span>
+                                            <span class="header__cart-info-item-amount">1</span>
+                                        </div>
+
+                                    </div>
+                                    <div class="header__cart-name-info-descriotion">
+                                        <span class="header__cart-info-item-desc">Phân loại hàng: Chìa khoá</span>
+                                        <span class="header__cart-info-item-delete">Xoá</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="">
+                            <button class="btn header__cart-view-items"> Xem tất cả</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="header__sort-bar">
+            <li class="header__sort-item">
+                <a href="" class="header__sort-link a-base">Liên quan</a>
+            </li>
+            <li class="header__sort-item  header__sort-item--active">
+                <a href="" class="header__sort-link a-base" >Mới nhất</a>
+                <hr class="header__sort-item--active-hr">
+
+            </li>
+            <li class="header__sort-item">
+                <a href="" class="header__sort-link a-base" >Bán chạy</a>
+            </li>
+            <li class="header__sort-item">
+                <a href="" class="header__sort-link a-base">Giá</a>
+            </li>
+        </ul>
+        
+        
+    </div>
+    <div class="app-container app-content">
+        <div class="grid wide">
+            <div class="grid__row">
+                <div class="grid__column-2 hide-on-tablet">
+                    <nav class="category hide-on-mobile-tablet">
+                        <ul class="category-list">
+                            <h3 class="category-heading">
+                                <i class="fas fa-list category-heading-icon"></i>
+                                Danh mục
+                            </h3>
+                            <li class="category-item category-item--active">
+                                <a href="#" class="category-item__link a-base">Khẩu trang y tế</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-item__link a-base">Khẩu trang quân dụng</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-item__link a-base">Khẩu trang vải</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="grid__column-10">
+
+                    <div class="grid-filter hide-on-mobile-tablet">
+                        <div class="grid-filter-option ">
+                            <span class="grid-filter-label">Sắp xếp theo</span>
+                            <button class="btn-space btn ">Phổ biến</button>
+                            <button class="btn-space btn-primary ">Mới nhất </button>
+                            <button class="btn-space btn">Bán chạy</button>
+                            <div class="btn-space grid-filter-cost">Giá
+                                <i class="fas fa-angle-down"></i>
+                                <ul class="grid-filter-list">
+                                    <a href="" class="grid-filter-link a-base">
+                                        <li class="grid-filter-item">Giá: Từ thấp đến cao</li>
+                                    </a>
+                                    <a href="" class="grid-filter-link a-base">
+                                        
+                                    <li class="grid-filter-item">Giá: Từ cao đến thấp</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="grid-filter-page">
+                            <span class="grid-filter-page-num">1</span>/14
+                            <div class="grid-filter-move-page">
+                                <a href="" class="grid-filter-arrow">
+                                    <i class="fas fa-angle-left "></i>
+                                </a>
+                                <a href="" class="grid-filter-arrow">
+                                    <i class="fas fa-angle-right "></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-product">
+                        
+                        <div class="row">
+                            <!-- Product item -->
+                            
+                            
+                            <div class="col l-2-4 m-4 c-10 c-o-1">
+                                <div class="grid-product--item">
+                                    <div class="grid-product--item__img"  style="background-image: url(assets/img/1.jpg);"></div>
+                                    <h4 class="grid-product--item__name"> Laptop và chuột Huhu chính hãng, hàng siêu chất lượng, cam kết bảo hành 12 tháng! </h4>
+                                    <div class="grid-product--item__price">
+                                        <span class="grid-product--item__price-new">12.000.000đ</span>
+                                        <span class="grid-product--item__price-old">14.500.000đ</span>
+                                    </div>
+                                    <div class="grid-product--item__action">
+                                        <span class="grid-product--item__like grid-product--item__like--liked">
+                                            <i class="grid-product--item__like-empty far fa-heart"></i>
+                                            <i class="grid-product--item__like-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="grid-product--item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                        </div>
+                                        <span class="grid-product--item__sold">69 đã bán</span>
+                                    </div>
+                                    <div class="grid-product--item__origin">
+                                        <span class="grid-product--item__brand">Huhu</span>
+                                        <span class="grid-product--item-origin-name">Việt Nam</span>
+                                    </div>
+                                    <div class="grid-product--item__favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span>Yêu thích</span> 
+                                    </div>
+                                    <div class="grid-product--item__sale-off">
+                                        <span class="grid-product--item__sale-off-percent">69%</span>
+                                        <span class="grid-product--item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-4 c-10 c-o-1">
+                                <div class="grid-product--item">
+                                    <div class="grid-product--item__img"  style="background-image: url(assets/img/1.jpg);"></div>
+                                    <h4 class="grid-product--item__name"> Laptop và chuột Huhu chính hãng, hàng siêu chất lượng, cam kết bảo hành 12 tháng! </h4>
+                                    <div class="grid-product--item__price">
+                                        <span class="grid-product--item__price-new">12.000.000đ</span>
+                                        <span class="grid-product--item__price-old">14.500.000đ</span>
+                                    </div>
+                                    <div class="grid-product--item__action">
+                                        <span class="grid-product--item__like grid-product--item__like--liked">
+                                            <i class="grid-product--item__like-empty far fa-heart"></i>
+                                            <i class="grid-product--item__like-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="grid-product--item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                        </div>
+                                        <span class="grid-product--item__sold">69 đã bán</span>
+                                    </div>
+                                    <div class="grid-product--item__origin">
+                                        <span class="grid-product--item__brand">Huhu</span>
+                                        <span class="grid-product--item-origin-name">Việt Nam</span>
+                                    </div>
+                                    <div class="grid-product--item__favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span>Yêu thích</span> 
+                                    </div>
+                                    <div class="grid-product--item__sale-off">
+                                        <span class="grid-product--item__sale-off-percent">69%</span>
+                                        <span class="grid-product--item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-4 c-10 c-o-1">
+                                <div class="grid-product--item">
+                                    <div class="grid-product--item__img"  style="background-image: url(assets/img/1.jpg);"></div>
+                                    <h4 class="grid-product--item__name"> Laptop và chuột Huhu chính hãng, hàng siêu chất lượng, cam kết bảo hành 12 tháng! </h4>
+                                    <div class="grid-product--item__price">
+                                        <span class="grid-product--item__price-new">12.000.000đ</span>
+                                        <span class="grid-product--item__price-old">14.500.000đ</span>
+                                    </div>
+                                    <div class="grid-product--item__action">
+                                        <span class="grid-product--item__like grid-product--item__like--liked">
+                                            <i class="grid-product--item__like-empty far fa-heart"></i>
+                                            <i class="grid-product--item__like-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="grid-product--item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                        </div>
+                                        <span class="grid-product--item__sold">69 đã bán</span>
+                                    </div>
+                                    <div class="grid-product--item__origin">
+                                        <span class="grid-product--item__brand">Huhu</span>
+                                        <span class="grid-product--item-origin-name">Việt Nam</span>
+                                    </div>
+                                    <div class="grid-product--item__favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span>Yêu thích</span> 
+                                    </div>
+                                    <div class="grid-product--item__sale-off">
+                                        <span class="grid-product--item__sale-off-percent">69%</span>
+                                        <span class="grid-product--item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-4 c-10 c-o-1">
+                                <div class="grid-product--item">
+                                    <div class="grid-product--item__img"  style="background-image: url(assets/img/1.jpg);"></div>
+                                    <h4 class="grid-product--item__name"> Laptop và chuột Huhu chính hãng, hàng siêu chất lượng, cam kết bảo hành 12 tháng! </h4>
+                                    <div class="grid-product--item__price">
+                                        <span class="grid-product--item__price-new">12.000.000đ</span>
+                                        <span class="grid-product--item__price-old">14.500.000đ</span>
+                                    </div>
+                                    <div class="grid-product--item__action">
+                                        <span class="grid-product--item__like grid-product--item__like--liked">
+                                            <i class="grid-product--item__like-empty far fa-heart"></i>
+                                            <i class="grid-product--item__like-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="grid-product--item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                        </div>
+                                        <span class="grid-product--item__sold">69 đã bán</span>
+                                    </div>
+                                    <div class="grid-product--item__origin">
+                                        <span class="grid-product--item__brand">Huhu</span>
+                                        <span class="grid-product--item-origin-name">Việt Nam</span>
+                                    </div>
+                                    <div class="grid-product--item__favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span>Yêu thích</span> 
+                                    </div>
+                                    <div class="grid-product--item__sale-off">
+                                        <span class="grid-product--item__sale-off-percent">69%</span>
+                                        <span class="grid-product--item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-4 c-10 c-o-1">
+                                <div class="grid-product--item">
+                                    <div class="grid-product--item__img"  style="background-image: url(assets/img/1.jpg);"></div>
+                                    <h4 class="grid-product--item__name"> Laptop và chuột Huhu chính hãng, hàng siêu chất lượng, cam kết bảo hành 12 tháng! </h4>
+                                    <div class="grid-product--item__price">
+                                        <span class="grid-product--item__price-new">12.000.000đ</span>
+                                        <span class="grid-product--item__price-old">14.500.000đ</span>
+                                    </div>
+                                    <div class="grid-product--item__action">
+                                        <span class="grid-product--item__like grid-product--item__like--liked">
+                                            <i class="grid-product--item__like-empty far fa-heart"></i>
+                                            <i class="grid-product--item__like-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="grid-product--item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                        </div>
+                                        <span class="grid-product--item__sold">69 đã bán</span>
+                                    </div>
+                                    <div class="grid-product--item__origin">
+                                        <span class="grid-product--item__brand">Huhu</span>
+                                        <span class="grid-product--item-origin-name">Việt Nam</span>
+                                    </div>
+                                    <div class="grid-product--item__favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span>Yêu thích</span> 
+                                    </div>
+                                    <div class="grid-product--item__sale-off">
+                                        <span class="grid-product--item__sale-off-percent">69%</span>
+                                        <span class="grid-product--item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-2-4 m-4 c-10 c-o-1">
+                                <div class="grid-product--item">
+                                    <div class="grid-product--item__img"  style="background-image: url(assets/img/1.jpg);"></div>
+                                    <h4 class="grid-product--item__name"> Laptop và chuột Huhu chính hãng, hàng siêu chất lượng, cam kết bảo hành 12 tháng! </h4>
+                                    <div class="grid-product--item__price">
+                                        <span class="grid-product--item__price-new">12.000.000đ</span>
+                                        <span class="grid-product--item__price-old">14.500.000đ</span>
+                                    </div>
+                                    <div class="grid-product--item__action">
+                                        <span class="grid-product--item__like grid-product--item__like--liked">
+                                            <i class="grid-product--item__like-empty far fa-heart"></i>
+                                            <i class="grid-product--item__like-fill fas fa-heart"></i>
+                                        </span>
+                                        <div class="grid-product--item__rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                            <i class="grid-product--item__rating--gold-star fas fa-star"></i>
+                                        </div>
+                                        <span class="grid-product--item__sold">69 đã bán</span>
+                                    </div>
+                                    <div class="grid-product--item__origin">
+                                        <span class="grid-product--item__brand">Huhu</span>
+                                        <span class="grid-product--item-origin-name">Việt Nam</span>
+                                    </div>
+                                    <div class="grid-product--item__favourite">
+                                        <i class="fas fa-check"></i>
+                                        <span>Yêu thích</span> 
+                                    </div>
+                                    <div class="grid-product--item__sale-off">
+                                        <span class="grid-product--item__sale-off-percent">69%</span>
+                                        <span class="grid-product--item__sale-off-label">GIẢM</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- grid product pagination -->
+                    </div>
+                    <div class="grid-product__pagination">
+                        <ul class="pagination-list">
+                            <li>
+                                <i class="fas fa-chevron-left"></i>
+                            </li>
+                            <li class="pagination--active">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>...</li>
+                            <li>11</li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div><hr>
+        
+        <div class="footer grid wide">
+            <div class="info-brand row">
+<ul class="brand__customer-care info-brand-item col l-2-4 m-6 c-12">
+    <h3>Chăm sóc khách hàng</h3>
+    <li>Trung tâm trợ giúp</li>
+    <li>DyouT Shop</li>
+    <li>Hướng dẫn mua hàng</li>
+</ul>
+<ul class="brand__info info-brand-item col l-2-4 m-6 c-12">
+    <h3>Giới thiệu</h3>
+    <li>Giới thiệu</li>
+    <li>Tuyển dụng</li>
+    <li>Điều khoản</li>
+</ul>
+<ul class="brand__category info-brand-item col l-2-4 m-6 c-12">
+    <h3>Danh mục</h3>
+    <li>Khẩu trang</li>
+    <li>Máy tính</li>
+    <li>Chuột</li>
+</ul>
+<ul class="brand_network info-brand-item col l-2-4 m-6 c-12">
+    <h3>Theo dõi</h3>
+    <li>
+        <i class="fab fa-facebook"></i>
+        Facebook</li>
+    <li>
+        <i class="fab fa-instagram"></i>
+        Instagram</li>
+</ul>
+<div class="brand__store-apps info-brand-item col l-2-4 m-12 c-12">
+    <h3>Vào cửa hàng trên ứng dụng</h3>
+    <div class="brand__icon">
+        <img class="brand-qr" src="/assets/img/qr-code.png" alt="">
+        <div class="brand-apps">
+            <img src="/assets/img/google-play.png" alt="">
+            <img src="/assets/img/app-store.png" alt="">
+        </div>
+    </div>
+
+</div>
+            </div>
+            
+        </div>
+
+        <!-- <div class="modal"> 
+
+
+
+        <div class="modal__body">
+
+             Register Form
+
+
+         <div class="auth__form">
+                <div class="auth__form-container">
+                    <div class="auth__form-header">
+                        <h3 class="auth__form-header-signup">Đăng ký</h3>
+                        <Span class="auth_form-header-swicth-btn">Đăng nhập</Span>
+                    </div>
+                    <div class="auth__form-form">
+                        <div class="auth__form-group">
+                            <input type="text" class="auth__form-email auth__form-input"
+                                placeholder="Nhập email của bạn">
+                        </div>
+                        <div class="auth__form-group">
+                            <input type="text" class="auth__form-pass auth__form-input"
+                                placeholder="Nhập mật khẩu của bạn">
+                        </div>
+                        <div class="auth__form-group">
+                            <input type="text" class="auth__form-pass auth__form-input"
+                                placeholder="Nhập lại mật khẩu của bạn">
+                        </div>
+                    </div>
+                    <div class="auth__form-aside">
+                        <P class="auth__form-policy-text">
+                            Bằng việc đăng ký, bạn đã đồng ý với DyouT về
+                            <a href="" class="auth__form-policy-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth__form-policy-link">Chính sách bảo mật</a>
+                        </P>
+
+                    </div>
+                    <div class="auth__form-controls">
+                        <button class="btn">TRỞ LẠI</button>
+                        <button class="btn btn-primary">ĐĂNG KÝ</button>
+                    </div>
+                    
+                </div>
+                <div class="auth__form-socials">
+                    <button class="btn--with-icon btn-fb">
+                        <i class="fab fa-facebook-square"></i>
+                        Kết nối với Facebook
+                    </button>
+                    <button class="btn--with-icon btn-gg">
+                        <i class="fab fa-google"></i>
+                        Kết nối với Google
+                    </button>
+                </div>
+                
+            </div> -->
+
+        <!-- Login modal -->
+        <!-- <div class="auth__form">
+                <div class="auth__form-container">
+                    <div class="auth__form-header">
+                        <h3 class="auth__form-header-signup">Đăng nhập</h3>
+                        <Span class="auth_form-header-swicth-btn">Đăng ký</Span>
+                    </div>
+                    <div class="auth__form-form">
+                        <div class="auth__form-group">
+                            <input type="text" class="auth__form-email auth__form-input"
+                                placeholder="Nhập email của bạn">
+                        </div>
+                        <div class="auth__form-group">
+                            <input type="text" class="auth__form-pass auth__form-input"
+                                placeholder="Nhập mật khẩu của bạn">
+                        </div>
+                    </div>
+                    <div class="auth__form-aside">
+                        
+                            <a href="" class="auth__form-forgot">Quên mật khẩu</a>
+                            <span class="auth__form-separate"></span>
+                            <a href="" class="auth__form-policy-help">Cần trợ giúp?</a>
+                        </P>
+
+                    </div>
+                    <div class="auth__form-controls">
+                        <button class="btn">TRỞ LẠI</button>
+                        <button class="btn btn-primary">ĐĂNG NHẬP</button>
+                    </div>
+                    
+                </div>
+                <div class="auth__form-socials">
+                    <button class="btn--with-icon btn-fb">
+                        <i class="fab fa-facebook-square"></i>
+                        Kết nối với Facebook
+                    </button>
+                    <button class="btn--with-icon btn-gg">
+                        <i class="fab fa-google"></i>
+                        Kết nối với Google
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="modal__overlay"></div>
+    </div> -->
+    <div class="license-brand">
+        <span>© 2020 - Bản quyền thuộc về DyouT</span>
+    </div>
+</body>
+
+</html>

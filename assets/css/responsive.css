@@ -1,0 +1,144 @@
+
+
+/* Responsive mobile and tablet */
+@media (max-width:1023px){
+
+    
+    :root{
+        --header-height: 70px;
+        --navbar-height: 34p;
+    --header-sort-bar-height: 50px;
+    }
+
+.hide-on-mobile-tablet{
+    display: none;
+}
+/* header */
+.header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header__cart {
+    width: 100px;
+}
+
+.header__cart-count {
+    left: 52%;  
+}
+
+.header__cart-container {
+    position: fixed;
+    top: var(--header-height);
+    width: 100%;
+    padding: 10px calc((100% - 644px) / 2);
+    height: 320px;
+    z-index: 8;
+}
+
+.header__cart-container::before{
+    display: none;
+}
+
+.header__sort-bar{
+display: flex;
+}
+
+
+/* app-container */
+.app-container{
+    margin-top: calc(var(--header-height) + var(--header-sort-bar-height));
+}
+
+/* footer */
+.info-brand-item{
+    text-align: center;
+}
+
+.brand__store-apps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brand__icon{
+   justify-content: center;
+}
+    
+    .brand-qr{
+        width: 30%;
+    cursor: pointer;
+    
+    }
+    
+    .brand-apps{
+        margin: auto 5px;
+        width: 30%;
+    }
+}
+/* Responsive Mobile */
+@media (max-width:739px){
+
+    .hide-on-mobile{
+        display: none;
+        
+    }
+
+    .header__logo-img{
+        width: 100px;
+        height: 50px;
+        object-fit: contain;
+    }
+
+    .header__cart{
+        width: 60px;
+        margin-right: 10px;
+    }
+
+    .grid__column-2{
+        display: none;
+    }
+
+    .grid__column-10{
+        flex-grow: 1;
+    }
+
+    .header__search-text {
+    height: 40px;
+    border-bottom: 1px solid #c5c5c5
+    }
+
+    .header__search-history-mobile{
+        
+    }
+}
+/* Responsive Tablet */
+
+@media (min-width:740px) and (max-width:1023px){
+   
+    .hide-on-tablet{
+        display: none;
+    }
+        .grid__column-10{
+            flex-grow: 1;
+        }
+
+       
+
+
+}
+
+
+/* Responsive PC - Tablet */
+@media (min-width:739px)
+{
+    .hide-on-pc-tablet{
+        display: none;
+    }
+}
